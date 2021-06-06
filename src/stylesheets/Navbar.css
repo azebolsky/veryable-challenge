@@ -1,0 +1,28 @@
+.nav-container {
+  width: 100%;
+  height: 64px;
+  margin: 0 0 16px 0;
+  padding: 0;
+  background-color: white;
+  box-shadow: -1px -1px 21px 0px #7b7b7b;
+}
+
+.nav-content {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.users-icon {
+  fill: #2081c3;
+}
+
+.nav-header {
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #4a4a4a;
+}
