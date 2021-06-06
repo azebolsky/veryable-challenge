@@ -1,0 +1,51 @@
+.user-container {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  margin-bottom: 16px;
+  box-shadow: 0px 1px 4px 0px #7b7b7b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-icon {
+  font-size: 30px;
+  height: 50px;
+  width: auto;
+  margin-left: 12px;
+}
+
+.user-content {
+  margin-left: 8px;
+  width: 100%;
+}
+
+.user-name,
+.user-role,
+.user-email {
+  margin: 1px;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.user-role {
+  font-size: 10px;
+  color: #4a4a4a;
+}
+
+.user-email {
+  font-size: 10px;
+  color: #7e7e7e;
+}
+
+.expand-more-icon {
+  fill: #7e7e7e;
+  width: 30px;
+  margin-right: 12px;
+}

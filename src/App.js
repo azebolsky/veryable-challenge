@@ -1,12 +1,15 @@
 import "./App.css";
 import Navbar from "components/Navbar";
+import Users from "components/Users";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <h1>Hello World</h1>
-    </div>
+      <div className="user-component-container">
+        <Users />
+      </div>
+    </>
   );
 };
 
