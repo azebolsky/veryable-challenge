@@ -1,9 +1,13 @@
+.content {
+  margin-bottom: 16px;
+  box-shadow: 0px 1px 4px 0px #7b7b7b;
+  background-color: white;
+}
+
 .user-container {
   width: 100%;
   height: 80px;
   background-color: white;
-  margin-bottom: 16px;
-  box-shadow: 0px 1px 4px 0px #7b7b7b;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,6 +24,16 @@
 .user-content {
   margin-left: 8px;
   width: 100%;
+}
+
+.additional-user-content {
+  margin-left: 8px;
+  width: 100%;
+  height: 160px;
+}
+
+.no-display {
+  display: none;
 }
 
 .user-name,
@@ -48,4 +62,15 @@
   fill: #7e7e7e;
   width: 30px;
   margin-right: 12px;
+}
+
+.detail-header {
+  font-size: 10px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.detail-item {
+  font-size: 10px;
+  color: #4a4a4a;
 }
