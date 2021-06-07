@@ -84,9 +84,9 @@ const Users = () => {
 
   const setUsers = userList.map((user) => {
     return (
-      <>
+      <div key={user.id}>
         <User user={user} />
-      </>
+      </div>
     );
   });
 
